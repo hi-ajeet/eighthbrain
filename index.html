@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <link rel="preconnect" href="https://ajax.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Nine Matter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+</head>
+
+<body class="page-loading home-template">
+
+
+<main id="page" class="home">
+	<header class="header">
+    <div class="header__inner">
+      <div class="logoContainer">
+        <a href="index.html" class="header__logo header__logo-small" title="Nine Matter">Nine Matter</a>
+      </div>
+
+
+        <nav class="nav">
+        <ul class="menu">
+    <!-- Loop through the navigation items -->
+   		 <li class="nav-home nav-current"><a href="index.html">Home</a></li>
+       <li class="nav-content"><a href="services.html">Services</a></li>
+       <li class="nav-content"><a href="content.html">Content</a></li>
+       <li class="nav-talent"><a href="talent.html">Talent</a></li>
+       <li class="nav-content"><a href="production.html">Production</a></li>
+   		 <li class="nav-about"><a href="about.html">About</a></li>
+       <li class="nav-blog"><a href="blog.html">Blog</a></li>
+   		 <li class="nav-contact"><a href="contact.html">Contact</a></li>
+    <!-- End the loop -->
+</ul>
+
+</nav>
+        <button class="header__toggle link" title="Open Navigation">
+          <span class="line"></span>
+          <span class="line alt"></span>
+          <span class="line"></span>
+        </button>
+    </div>
+  </header>
+</main>
+
+  <section class="HomeHero">
+     <div class="container">
+       <h1 class="section__pre-title">A Global <span>Content</span> Network</h1>
+     </div>
+  </section>
+
+  <section class="AboutSec1 prodcution1 home">
+      <div class="container">
+        <div class="service-bigTxt align-center width980">
+          <p class="big-txt bold">Investing in Happiness</p>
+          <p class="services-text1">Founded in 2007, Heartcore was built on our passion of working with high-potential founders.</p>
+        </div>
+     </div>
+  </section>
+
+
+  <section class="WhatWeDo">
+      <div class="container">
+          <div class="headingBlock">
+                 <div><h2 class="main-heading">What we do</h2></div>
+                 <div>
+                  <p>This is great placeholder text that does a super job at showing how it will look on the site. The text will need to be updated on the live site, but for now it’s helpful to see how the content will look with this sample text.</p>
+                 </div>
+          </div>
+
+          <div class="secRow CardBlockRow">
+                <div class="col4">
+                    <div class="cardBlock one">
+                      <a href="#">
+                        <img src="assets/placeholder.jpg" alt="placeholder"/>
+                        <h3 class="heading3">Heading</h3>
+                        <p>This is great placeholder text that does a super job at showing how it will look on the site. The text will need to be updated on.</p>
+                      </a>
+                   </div>
+                </div>
+
+                <div class="col4">
+                  <div class="cardBlock two">
+                    <a href="#">
+                      <img src="assets/placeholder.jpg" alt="placeholder"/>
+                      <h3 class="heading3">Heading</h3>
+                      <p>This is great placeholder text that does a super job at showing how it will look on the site. The text will need to be updated on.</p>
+                    </a>
+                 </div>
+                </div>
+
+                <div class="col4">
+                  <div class="cardBlock three">
+                    <a href="#">
+                      <img src="assets/placeholder.jpg" alt="placeholder"/>
+                      <h3 class="heading3">Heading</h3>
+                      <p>This is great placeholder text that does a super job at showing how it will look on the site. The text will need to be updated on.</p>
+                    </a>
+                 </div>
+                </div>
+          </div>
+      </div>
+
+  </section>
+
+<!-- Form start --->
+
+  <section class="getinTouch">
+    <div class="container-full-width">
+          <div class="secRow">
+                <div class="contact-col5 contleft">
+                  <div>
+                     <p>Get in touch</p>
+                   </div>
+                  </div>
+
+                <div class="contact-col7 ContactForm">
+                    <div class="FromWrapper">
+          <!--    <form id="contact-form" name="email-form" class="form" >
+
+                      <div class="formrow grid-6">
+                          <div>
+                              <label for="name" class="field-label">First Name</label><input class="text-field w-input" maxlength="256" name="name"  placeholder="First Name" type="text" id="name" required="" oninvalid="this.setCustomValidity('Please enter your Name here')"
+       oninput="this.setCustomValidity('')"/>
+                          </div>
+                          <div>
+                              <label for="name-2" class="field-label">Last Name</label><input class="text-field w-input" maxlength="256" name="name-2"  placeholder="Last Name" type="text" id="name-2" />
+                          </div>
+                      </div>
+
+                      <label for="phone" class="field-label">Contact Number</label><input class="text-field w-input" maxlength="256" name="phone"  placeholder="Contact Number" type="text" id="phone" autocomplete="off" pattern="[0-9]{10}" required="" oninvalid="this.setCustomValidity('Please enter a valid phone number')"
+oninput="this.setCustomValidity('')"/>
+
+                      <label for="email" class="field-label">Email Address</label><input class="text-field w-input" maxlength="256" name="email" placeholder="Your Email " type="email" id="email" required="" autocomplete="off"  oninvalid="this.setCustomValidity('Please enter a valid email ID')"
+oninput="this.setCustomValidity('')"/>
+
+                      <label for="Role" class="field-label">What do you have to say?</label>
+                      <select id="Role" name="Role"  required="" class="select-field w-select">
+                          <option value="Fourth">Do you want to join our team?</option>
+                          <option value="First">Do you want to collaborate with us for brand promotions?</option>
+                          <option value="Second">Are you looking for customised production services?</option>
+                          <option value="Third">Do you have a query?</option>
+                      </select>
+
+                      <label for="message" class="field-label">What's on your mind?</label><input class="text-field w-input" maxlength="256" name="message"  placeholder="What's on your mind?" type="text" id="message" required="" />
+
+                  <input type="submit" data-wait="Please wait..." class="btnAction submit-button site-button" onClick="sendContact();" value="Submit" />
+
+                      <p id="emailError"></p>
+                      <div id="mail-status"></div>
+                   </form>
+                   </form> -->
+
+                  <form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="">
+
+
+                    <div class="form-group">
+                      <div class="controls">
+                        <label for="name" class="field-label">Your Name</label>
+                        <input type="text" id="name" class="form-control w-input" placeholder="Full Name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="controls">
+                        <label for="email" class="field-label">Email Address</label>
+                        <input type="email" class="email form-control w-input" id="email" placeholder="Your Email" required data-error="Please enter your email">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="controls">
+                        <label for="phone" class="field-label">Contact Number</label>
+                        <input type="phone" class="phone form-control w-input" id="phone" placeholder="Contact Number" required data-error="Please enter phone number">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="controls">
+                        <label for="Role" class="field-label">What do you have to say?</label>
+                        <select id="Role" name="Role" required="" class="select-field w-select" required data-error="Select an option">
+                          <option value="" disabled selected>Select your option</option>
+                          <option value="Want to join our team">Do you want to join our team?</option>
+                          <option value="Want to collaborate for brand promotions">Do you want to collaborate with us for brand promotions?</option>
+                          <option value="Looking for customised production services">Are you looking for customised production services?</option>
+                          <option value="Have a query">Do you have a query?</option>
+                        </select>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="controls">
+                        <label for="message" class="field-label">What's on your mind?</label>
+                        <textarea id="message" rows="7" placeholder="What's on your mind?" class="form-control w-input" required data-error="Write your message"></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+
+                    <button type="submit" id="submit" class="primary-Btn submit-button">Submit</button>
+                     <div id="msgSubmit" class="h3 text-center hidden"></div>
+                    <img id="loadingForm" src='assets/load.gif' style="display:none;width:20px;" width="20" />
+                    <div class="clearfix"></div>
+
+                  </form>
+
+                 </div>
+                </div>
+          </div>
+    </div>
+  </section>
+
+<!--Footer Start  -->
+
+<footer>
+  <div class="container">
+     <div class="footer-logo">Nine Matter</div>
+
+     <div class="footer-social-">
+
+        <ul class="footersocial">
+            <li><a href="#" target="_blank" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+       </ul>
+     </div>
+
+
+
+
+     <div class="footer-links">
+       <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="services.html">Services</a></li>
+         <li><a href="production.html">Production</a></li>
+         <li><a href="talent.html">Talent</a></li>
+         <li><a href="content.html">Content</a></li>
+         <li><a href="blog.html">Blog</a></li>
+         <li><a href="contact.html">Contact</a></li>
+       </ul>
+
+     </div>
+
+
+    <div class="footer-contact-info">
+
+       <p>©2024 Nine Matter | All Rights Reserved.</p>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+<!--Footer END  -->
+
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://myclientshub.com/mailer/form-validator.min.js"  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+var jq9=jQuery.noConflict();
+jq9(document).ready(function(){
+  jq9(".header__toggle").click(function(){
+      jq9(this).toggleClass("active");
+      jq9(".nav").toggleClass("viewable");
+  });
+});
+
+</script>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+<script>
+var jq1=jQuery.noConflict();
+
+jq1("#contactForm").validator().on("submit", function (event) {
+	jq1('#loadingForm').show();
+    if (event.isDefaultPrevented()) {
+        // handle the invalid form...
+        formError();
+        submitMSG(false, "Please fill the above required fields.");
+		jq1('#loadingForm').hide();
+    } else {
+        // everything looks good!
+        event.preventDefault();
+        submitForm();
+    }
+});
+
+
+function submitForm(){
+    // Initiate Variables With Form Content
+
+    var name = jq1("#name").val();
+    var email = jq1("#email").val();
+    var phone = jq1("#phone").val();
+    var role = jq1("#Role").val();
+    var message = jq1("#message").val();
+
+
+    jq1.ajax({
+        type: "POST",
+        url: "https://myclientshub.com/mailer/contact_mail.php",
+        data: "name=" + name + "&email=" + email + "&phone=" + phone + "&role=" + role + "&message=" + message,
+        success : function(text){
+            if (text == "success"){
+                formSuccess();
+				 jq1('#loadingForm').hide();
+            } else {
+                formError();
+                submitMSG(false,text);
+				 jq1('#loadingForm').hide();
+            }
+        }
+    });
+}
+
+function formSuccess(){
+    jq1("#contactForm")[0].reset();
+    submitMSG(true, "Thank you! Your message has been received, and we’ll be in touch soon.")
+}
+
+function formError(){
+    jq1("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+        jq1(this).removeClass();
+    });
+}
+
+function submitMSG(valid, msg){
+    if(valid){
+        var msgClasses = "h3 text-center tada animated text-success";
+    } else {
+        var msgClasses = "h3 text-center text-danger";
+    }
+    jq1("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
+}
+
+</script>
+
+
+
+
+</body>
+</html>
